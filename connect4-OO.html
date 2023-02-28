@@ -8,19 +8,21 @@
   <link rel="stylesheet" href="connect4-OO.css">
 </head>
 <body>
+
+  <input id="p1-color" placeholder="Player 1 color">
+  <input id="p2-color" placeholder="Player 2 color">
+
   <div id="container">
-    <input type="text" class="size" id="width">Width
-    <input type="text" class="size" id="height">Height
-    <br>
-    <input type="text" class="size" id="p1Color">Player 1(Color)
-    <input type="text" class="size" id="p2Color">Player 2(color)
-    <button id="start" type="submit">Start New Game</button>
+    <input type="text"  id="width" placeholder="Width">
+    <input type="text"  id="height" placeholder="Height">
   </div>
+
+  <button id="start-game">Start Game!</button>
 
   <div id="game">
     <table id="board"></table>
   </div>
 
-<script src="connect4-OO.js"></script>
+<script src="connect4-OO2.js"></script>
 </body>
 </html>
